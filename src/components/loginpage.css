@@ -1,0 +1,134 @@
+.outer{
+  display: flex;
+}
+
+.image-div{
+  width:70%;
+}
+
+.left-div{
+  flex:0 0 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-div{
+  flex:0 0 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.form-div{
+  margin:40px;
+  padding:20px;
+}
+.remember{
+  display: flex;
+  justify-content: space-between;
+  margin:20px 0;
+  font-size: 13px;
+}
+.tandc{
+  font-size: 13px;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.loginid-div{
+  /* align-self: flex-start; */
+  margin:8px 0;
+  font-size: 12px;
+}
+.password-div{
+  margin-top: 10px;
+  font-size: 12px;
+}
+#loginid,#password{
+  width: 100%;
+  margin:5px 0;
+  height: 25px;
+  padding:5px;
+  font-size: 13px;
+  border-radius: 5px;
+  border:1px solid grey;
+}
+
+.login-button-div{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.register-div{
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+}
+.login-button{
+  width: 60%;
+  height: 35px;
+  background-color: #324ca8;
+  color: white;
+  padding:8px;
+  font-size: 13px;
+  border-radius: 5px;
+  border:1px solid white;
+}
+h2{
+  font-weight:900;
+}
+a{
+  text-decoration: none;
+  color: #f58742;
+}
+.checkbox{
+  margin:0 0;
+  margin-right: 5px;
+  width: 20px;
+}
+.remember-div-1{
+  display: flex;
+  justify-content: space-around;
+}
+.tandc-div{
+  display: flex;
+}
+.underline{
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 650px){
+  .outer{
+    display: flex;
+    flex-direction: column;
+  }
+  .form-div{
+    margin:4px 0;
+    padding:2px;
+  }
+  .login-button{
+    width: 100%;
+    height: 35px;
+    background-color: #324ca8;
+    color: white;
+    padding:8px;
+    font-size: 13px;
+    border-radius: 5px;
+    border:1px solid white;
+  }
+  .image-div{
+    width:60%;
+  }
+  #loginid,#password{
+    width: 97%;
+    margin:5px 0;
+    height: 25px;
+    padding:5px;
+    font-size: 13px;
+    border-radius: 5px;
+    border:1px solid grey;
+  }
+}
